@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de correo electrónico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="language-buttons">
+            <button id="enButton">🇬🇧</button>
+            <button id="esButton">🇪🇸</button>
+        </div>
+        <h1 id="title">Ingrese direcciones de correo electrónico</h1>
+        <p id="description">Este formulario se utiliza para enviar correos electrónicos a los clientes del hotel para recopilar comentarios sobre su experiencia.</p>
+        <textarea id="emailInput" placeholder="Pegue las direcciones de correo electrónico aquí..."></textarea>
+        <p id="counter">Correos electrónicos ingresados: 0</p>
+        <button id="sendButton">Enviar</button>
+        <p id="statusMessage"></p>
+        <h2>Estado de envío</h2>
+        <ul id="emailStatus"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
